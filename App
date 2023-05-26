@@ -1,0 +1,31 @@
+<template>
+  <HelloWorld />
+  <!-- <CovidStatistics /> -->
+  <InboxStat />
+</template>
+
+<script>
+import HelloWorld from "./components/HelloWorld.vue";
+// import CovidStatistics from "./components/CovidStatistics.vue";
+import InboxStat from "./components/InboxStat.vue";
+
+export default {
+  name: "App",
+  components: {
+    HelloWorld,
+    // CovidStatistics,
+    InboxStat,
+  },
+};
+</script>
+
+<style>
+#app {
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: #2c3e50;
+  margin-top: 60px;
+}
+</style>
